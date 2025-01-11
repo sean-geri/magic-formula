@@ -49,7 +49,7 @@ export const MainPage = () => {
 
         <div>Revenue: {data?.body?.totalRevenue?.fmt}</div>
         <div>Operating Margin: {data?.body?.operatingMargins?.fmt}</div>
-        <div>EBIT: {calculateEBIT()}</div>
+        {/*<div>EBIT: {calculateEBIT()}</div>*/}
         <div>EBITDA: {data?.body?.ebitda?.fmt}</div>
     </div>)
 }
