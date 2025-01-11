@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {MainPage} from "./components/main-page/main-page";
 
 
 function printNumber(num: number) {
@@ -34,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-asd
+          <MainPage />
       </header>
     </div>
   );
